@@ -1,0 +1,125 @@
+
+
+
+body{
+    background-color: #F93827;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    width: 100%;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;   
+    border-bottom: 3px solid aliceblue; 
+}
+
+.logo img{
+    width: 80px;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 25px;
+    padding: 12px 40px;
+}
+nav ul li :hover{
+    background-color: #FFEB00;
+    border-radius: 25px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFEB00;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: lawngreen;
+}
+#helo img{
+    width: 100%;
+}
+#about {
+    background-image: url(./asset/mr\ black.gif);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+  }
+  #about h2 {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  #about p {
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+  }
+
+  #product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .card button:hover { opacity: 0.7; } footer{ text-align: center; background-color: #BB3009; color: #47201D; padding: 25px; font-weight: bold; border-radius: 0 45px 0 45px; }
